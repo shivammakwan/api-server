@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
     userMessage:
       "It worked",
     status: 200,
-    fareManagerId: "X91SMSS",
+    fareManagerId: "X91SUCCESS",
   });
 });
 
@@ -19,7 +19,7 @@ app.get("/:fail", (req, res) => {
     userMessage:
       "Sorry, Something happened unexpectedly. Please try after sometime.",
     status: 404,
-    fareManagerId: "X91SMSS",
+    fareManagerId: "X91FAIL",
   });
 });
 
