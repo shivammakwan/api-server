@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 
 app.get("/:fail", (req, res) => {
   console.log(req.get("host"));
-  res.status(200).send({
+  res.status(404).send({
     version: "1.0.0",
     userMessage:
       "Sorry, Something happened unexpectedly. Please try after sometime.",
